@@ -130,9 +130,7 @@ int convertToLinear(float to_convert){
 }
 void setup(){
   Serial.begin(115200);
-    //3h wana kan9lb 3la error flkhr l9it bli 9600 is too slow, 
-    //fach katprinti biha shi haja it slows down the loop, try, 
-    //ghaybanlk valeur d gyro scope(which depend on the loop time) ghaltin
+
   HC05.begin(9600);
   log("~ Setup Started ~");
   timer::setup();
